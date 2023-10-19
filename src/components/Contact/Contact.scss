@@ -1,0 +1,35 @@
+.contact {
+    background-color: #063775;
+    .title {
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: #FFFFFF;
+        margin: 0 0 2.8rem 0;
+    }
+    .contact-wrapper {
+        padding: 26px 34px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    svg {
+        color: #FFFFFF;
+        width: 15px;
+        margin-right: 12px;
+    }
+    .mail-info {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        span{
+            color: #FFFFFF;
+        }
+        .whatsapp-link img{
+            font-size: 20px;
+            width: 46%;
+            margin-top: 22px;
+        }
+    }
+    .address-info {
+        margin-right: 37px;
+    }
+}

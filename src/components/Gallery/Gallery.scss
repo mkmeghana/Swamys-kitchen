@@ -1,0 +1,23 @@
+.gallery {
+    .title {
+        color: #063775;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 2%;
+    }
+    img {
+      width: 100%;
+    }
+    .slick-arrow.slick-next::before, .slick-arrow.slick-prev::before {
+        color: blue;
+    }
+    .slick-arrow.slick-next {
+        color: blue;
+        margin-right: 30px;
+    }
+    // .slick-arrow.slick-
+    .gallery-wrapper {
+        overflow: hidden;
+        margin: 0 30px;
+    }
+}

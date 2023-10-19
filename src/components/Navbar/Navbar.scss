@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #063775;
+    color: #FFFFFF;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 48px;
+    .navbar-brand {
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(-225deg, #d2cedd, #82fc86 29%, #ed6c97 67%, #c7c10c);
+        background-size: 200% auto;
+        color: #fff;
+        cursor: default;
+        font-weight: 700;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        .nav-item {
+            padding: 0px 20px;
+            .nav-link {
+                padding: 0px;
+            }
+        }
+    }
+    .navbar-collapse.show {
+        background-color: #063775;
+        .navbar-nav {
+            flex-direction: column;
+            .nav-link {
+                padding: 5px;
+            }
+        }
+    }
+}
